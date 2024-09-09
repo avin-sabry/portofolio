@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avin's Portfolio</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/darkmode.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+<header>
+    <div class="logo">
+        <a href="#hero">Avin</a>
+    </div>
+    <nav>
+        <div class="menu-icon" id="menu-icon">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <ul class="nav-list" id="nav-list">
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button id="dark-mode-toggle">
+            <span class="toggle-icon">&#9790;</span> <!-- Moon icon -->
+        </button>
+    </nav>
+</header>
+
+    <!-- Hero Section -->
+<section id="hero">
+    <div class="hero-overlay"></div>
+    <div class="intro-text">
+        <h1><span class="typewriter">Hello, I'm Avin!</span></h1>
+        <p>Web Developer & Designer</p>
+        <a href="#portfolio" class="cta-button">View My Work</a>
+    </div>
+</section>
+
+
+    <!-- About Me Section -->
+<section id="about">
+    <div class="container">
+        <h2>About Me</h2>
+        <p class="about-description">
+            I'm a passionate web developer with a love for creating beautiful and functional websites...
+        </p>
+        <div class="skills">
+            <div class="skill-bar">
+                <p>HTML</p>
+                <div class="progress-bar"><div class="progress" data-progress="90%"></div></div>
+            </div>
+            <div class="skill-bar">
+                <p>CSS</p>
+                <div class="progress-bar"><div class="progress" data-progress="85%"></div></div>
+            </div>
+            <div class="skill-bar">
+                <p>JavaScript</p>
+                <div class="progress-bar"><div class="progress" data-progress="80%"></div></div>
+            </div>
+        </div>
+        <a href="#" class="resume-button">Download Resume</a>
+    </div>
+</section>
+
+
+   <!-- Portfolio Section -->
+<section id="portfolio">
+    <div class="container">
+        <h2>My Work</h2>
+        <div class="project-filters">
+            <button data-filter="all" class="filter-button active">All</button>
+            <button data-filter="web" class="filter-button">Web Development</button>
+            <button data-filter="uiux" class="filter-button">UI/UX Design</button>
+        </div>
+        <div class="project-grid">
+            <div class="project-card" data-category="web">
+                <div class="project-thumbnail">
+                    <img src="images/project1.jpg" alt="Project 1">
+                    <div class="project-overlay">
+                        <h3>Project Title 1</h3>
+                        <p>Web Development</p>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card" data-category="uiux">
+                <div class="project-thumbnail">
+                    <img src="images/project2.jpg" alt="Project 2">
+                    <div class="project-overlay">
+                        <h3>Project Title 2</h3>
+                        <p>UI/UX Design</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Testimonials Section -->
+<section id="testimonials">
+    <div class="container">
+        <h2>What Clients Say</h2>
+        <div class="testimonial-slider">
+            <div class="testimonial-slide active">
+                <div class="testimonial-content">
+                    <div class="testimonial-img-wrapper">
+                        <img src="images/testimonial1.jpg" alt="Client 1">
+                    </div>
+                    <p>"Avin is amazing!"</p>
+                    <h4>- Client 1</h4>
+                </div>
+            </div>
+            <div class="testimonial-slide">
+                <div class="testimonial-content">
+                    <div class="testimonial-img-wrapper">
+                        <img src="images/testimonial2.jpg" alt="Client 2">
+                    </div>
+                    <p>"Great work, highly recommend."</p>
+                    <h4>- Client 2</h4>
+                </div>
+            </div>
+        </div>
+        <div class="testimonial-navigation">
+            <button class="prev">❮</button>
+            <button class="next">❯</button>
+        </div>
+    </div>
+</section>
+
+
+
+
+    <!-- Blog Section -->
+<section id="blog">
+    <div class="container">
+        <h2>Latest Blog Posts</h2>
+        <div class="blog-grid">
+            <div class="blog-card">
+                <div class="blog-thumbnail">
+                    <img src="images/blog1.jpg" alt="Blog Post 1">
+                </div>
+                <div class="blog-content">
+                    <h3>Understanding Web Development</h3>
+                    <p>Get insights into the world of web development, covering the latest trends, tools, and best practices...</p>
+                    <a href="#" class="read-more">Read More</a>
+                </div>
+            </div>
+            <div class="blog-card">
+                <div class="blog-thumbnail">
+                    <img src="images/blog2.jpg" alt="Blog Post 2">
+                </div>
+                <div class="blog-content">
+                    <h3>The Importance of UI/UX Design</h3>
+                    <p>Discover how great UI/UX design can elevate your digital projects and create seamless user experiences...</p>
+                    <a href="#" class="read-more">Read More</a>
+                </div>
+            </div>
+            <div class="blog-card">
+                <div class="blog-thumbnail">
+                    <img src="images/blog3.jpg" alt="Blog Post 3">
+                </div>
+                <div class="blog-content">
+                    <h3>Trends in Front-End Development</h3>
+                    <p>Stay ahead of the curve with the latest trends and technologies in front-end development for 2024...</p>
+                    <a href="#" class="read-more">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Contact Section -->
+<!-- Contact Section -->
+<section id="contact">
+    <div class="container">
+        <h2>Contact Me</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+            </div>
+            <div class="form-group">
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" required></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+        </form>
+        
+    </div>
+</section>
+
+
+
+ <!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <h2>Avin</h2>
+            </div>
+            <div class="footer-nav">
+                <ul>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <a href="https://github.com" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; <span id="current-year"></span> Avin. All Rights Reserved.</p>
+            <a href="#hero" id="back-to-top">Back to Top</a>
+        </div>
+    </div>
+</footer>
+
+
+  
+    <script src="js/main.js"></script>
+</body>
+</html>
