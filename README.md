@@ -1,4 +1,8 @@
 🖥️ Avin's Portfolio
+
+
+
+
 Welcome to Avin's personal portfolio website! This project showcases my web development and design skills, featuring an elegant, responsive layout. Below you'll find instructions on setting up, running, and contributing to the project.
 
 📑 Table of Contents
